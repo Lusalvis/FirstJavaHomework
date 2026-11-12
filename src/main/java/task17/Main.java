@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     static void main() throws Exception {
-        Scanner sc = new Scanner(new File("data.txt"));
+        Scanner sc = new Scanner(new File("duomenys.txt"));
        int n = sc.nextInt();
        int prev = sc.nextInt();
        int count = 0;
